@@ -792,20 +792,6 @@
     "severity": 3
   },
   {
-    "id": "christ",
-    "match": "chri*st",
-    "tags": [
-      "religious"
-    ],
-    "severity": 1,
-    "exceptions": [
-      "*en",
-      "*ian",
-      "*ie",
-      "*y"
-    ]
-  },
-  {
     "id": "cialis",
     "match": "cialis",
     "tags": [
@@ -2172,25 +2158,6 @@
       "sexual"
     ],
     "severity": 3
-  },
-  {
-    "id": "jesus",
-    "match": "je*su*s",
-    "tags": [
-      "religious"
-    ],
-    "severity": 1,
-    "exceptions": [
-      "be*"
-    ]
-  },
-  {
-    "id": "jesus-christ",
-    "match": "je*su*s chri*st",
-    "tags": [
-      "religious"
-    ],
-    "severity": 2
   },
   {
     "id": "jigaboo",
