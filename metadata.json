@@ -4,8 +4,5 @@
   "discord": "gYhqMRBeZV",
   "changelogs": {
     "1.0.5 BETA": "[+] Remade bypassbuddy's code\n[+] Remade the bypass function\n[+] Added notifications to chat\n[+] Added saveable settings\n[+] Much faster & improved bypassing."
-  },
-  "hints": [
-    "if u haven't read the latest bypassbuddy changelogs they automatically show up."
-  ]
+  }
 }
