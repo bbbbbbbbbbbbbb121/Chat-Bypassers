@@ -1,8 +1,9 @@
 {
-  "version": ["1.0.5", "BETA"],
-  "last_updated": "4/11/2024",
+  "version": ["1.0.6", "PUBLIC RELEASE"],
+  "last_updated": "7/11/2024",
   "discord": "gYhqMRBeZV",
   "changelogs": {
+    "1.0.6 PUBLIC RELEASE": "[+] Added a new unicode bypass character\n[+] You can now say 1 word swear words, like 'faggot' without putting them in a sentence.\n[+] Fixed not loading all the tabs\n[=] TODO: // Add more features (Coming soon, maybe at 9/11 heh)",
     "1.0.5 BETA": "[+] Remade bypassbuddy's code\n[+] Remade the bypass function\n[+] Added notifications to chat\n[+] Added saveable settings\n[+] Much faster & improved bypassing."
   }
 }
