@@ -1,8 +1,9 @@
 {
-  "version": ["1.0.6", "PUBLIC RELEASE"],
-  "last_updated": "7/11/2024",
+  "version": ["1.0.7", "ALPHA"],
+  "last_updated": "10/11/2024",
   "discord": "gYhqMRBeZV",
   "changelogs": {
+    "1.0.7 ALPHA": "[-] No mobile support yet.\n[+] Remade bypass function -> Messages under 4 characters cannot be bypassed, Script bypasses almost everything given accurately (if the chat filter doesnt break)\n[+] Added a 'Bypass chatbar text' button in Bypasser Settings+ tab, What this does is: Convert the text you typed in the chat bar into the bypassed version of it.\n[+] Fixed invisible characters issue\n[+] Added a tutorial for those who have a hard time bypassing stuff",
     "1.0.6 PUBLIC RELEASE": "[+] Added a new unicode bypass character\n[+] You can now say 1 word swear words, like 'faggot' without putting them in a sentence.\n[+] Fixed not loading all the tabs\n[=] TODO: // Add more features (Coming soon, maybe at 9/11 heh)",
     "1.0.5 BETA": "[+] Remade bypassbuddy's code\n[+] Remade the bypass function\n[+] Added notifications to chat\n[+] Added saveable settings\n[+] Much faster & improved bypassing."
   }
