@@ -3,7 +3,7 @@
   "last_updated": "19/11/2024:10:52 PM",
   "discord": "gYhqMRBeZV",
   "changelogs": {
-    "1.1.0 UNPATCH": "[+] Returned invisible characters support (Thanks to BetterBypasser)".
+    "1.1.0 UNPATCH": "[+] Returned invisible characters support (Thanks to BetterBypasser)",
     "1.0.9 SHIT_RELEASE": "[-] Removed invisible characters bypassing as roblox filter update fucked it all up\n[+] Added mobile support",
     "1.0.8 TESTING": "[+] Added the warning for when you join a game with text chat service\n[+] Made bypassed messages length 2X SHORTER!!! (Meaning you can send messages 2x longer now; including links)\n[=] TODO: Mobile support & TCS ban bypass.",
     "1.0.7 ALPHA": "[-] No mobile support yet.\n[+] Remade bypass function -> Messages under 4 characters cannot be bypassed, Script bypasses almost everything given accurately (if the chat filter doesnt break)\n[+] Added a 'Bypass chatbar text' button in Bypasser Settings+ tab, What this does is: Convert the text you typed in the chat bar into the bypassed version of it.\n[+] Fixed invisible characters issue\n[+] Added a tutorial for those who have a hard time bypassing stuff",
