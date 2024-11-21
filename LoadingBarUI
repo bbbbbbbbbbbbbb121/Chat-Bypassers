@@ -21,7 +21,7 @@ local GXL = {
  ["Stroke_3"] = Instance_new("UIStroke"),
  ["Padding"] = Instance_new("UIPadding")
 }
-GXL["LoaderUI"]["Parent"] = game:GetService("StarterGui")
+GXL["LoaderUI"]["Parent"] = gethui and gethui() or game:GetService("CoreGui")
 GXL["LoaderUI"]["Name"] = 'LoaderUI'
 
 GXL["BypassBuddyFrame"]["Parent"] = GXL["LoaderUI"]
