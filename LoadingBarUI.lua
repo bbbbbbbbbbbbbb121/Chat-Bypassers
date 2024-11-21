@@ -21,7 +21,7 @@ local GXL = {
  ["Stroke_3"] = Instance_new("UIStroke"),
  ["Padding"] = Instance_new("UIPadding")
 }
-GXL["LoaderUI"]["Parent"] = gethui and gethui() or game:GetService("CoreGui")
+GXL["LoaderUI"]["Parent"] = gethui and gethui() or game:GetService("StarterGui")
 GXL["LoaderUI"]["Name"] = 'LoaderUI'
 
 GXL["BypassBuddyFrame"]["Parent"] = GXL["LoaderUI"]
@@ -29,8 +29,7 @@ GXL["BypassBuddyFrame"]["Name"] = 'BypassBuddyFrame'
 GXL["BypassBuddyFrame"]["BackgroundColor3"] = Color3_fromHex("0f0f0f")
 GXL["BypassBuddyFrame"]["BorderColor3"] = Color3_fromHex("000000")
 GXL["BypassBuddyFrame"]["BorderSizePixel"] = 0
-GXL["BypassBuddyFrame"]["Position"] = UDim2_new(0.5, 0.000000, 0.5, 0.000000)
-GXL["BypassBuddyFrame"]["AnchorPoint"] = Vector2.new(.5, .5)
+GXL["BypassBuddyFrame"]["Position"] = UDim2_new(0.369110, 0.000000, 0.354783, 0.000000)
 GXL["BypassBuddyFrame"]["Size"] = UDim2_new(0.000000, 395.000000, 0.000000, 301.000000)
 
 GXL["Corner"]["Parent"] = GXL["BypassBuddyFrame"]
@@ -79,7 +78,8 @@ GXL["Text"]["BackgroundColor3"] = Color3_fromHex("ffffff")
 GXL["Text"]["BackgroundTransparency"] = 1
 GXL["Text"]["BorderColor3"] = Color3_fromHex("000000")
 GXL["Text"]["BorderSizePixel"] = 0
-GXL["Text"]["Position"] = UDim2_new(0.253165, 0.000000, 0.149502, 0.000000)
+GXL["Text"]["Position"] = UDim2_new(0.5, 0.000000, 0.14, 0.000000)
+GXL["Text"]["AnchorPoint"] = Vector2.new(.5, .14)
 GXL["Text"]["Size"] = UDim2_new(0.000000, 200.000000, 0.000000, 20.000000)
 
 GXL["Stroke_2"]["Parent"] = GXL["Text"]
