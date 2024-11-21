@@ -131,5 +131,5 @@ return {
     Get = function()
         return GXL["SliderFill"].Size.X.Scale
     end,
-    Box = GXL["KeyBox"]
+    UI = GXL
 }
