@@ -1,8 +1,10 @@
 {
-  "version": ["1.1.0", "UNPATCH"],
-  "last_updated": "19/11/2024:10:52 PM",
+  "version": ["1.1.1", "UC-COLLAB"],
+  "last_updated": "0/0/0",
   "discord": "gYhqMRBeZV",
+  "devs": "ballsman3761 & uqij",
   "changelogs": {
+    "1.1.1 UC-COLLAB": "secret",
     "1.1.0 UNPATCH": "[+] Returned invisible characters support (Thanks to BetterBypasser)",
     "1.0.9 SHIT_RELEASE": "[-] Removed invisible characters bypassing as roblox filter update fucked it all up\n[+] Added mobile support",
     "1.0.8 TESTING": "[+] Added the warning for when you join a game with text chat service\n[+] Made bypassed messages length 2X SHORTER!!! (Meaning you can send messages 2x longer now; including links)\n[=] TODO: Mobile support & TCS ban bypass.",
