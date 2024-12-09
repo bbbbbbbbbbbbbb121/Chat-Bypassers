@@ -16,10 +16,7 @@ local GXL = {
  ["Stroke"] = Instance_new("UIStroke"),
  ["Text"] = Instance_new("TextLabel"),
  ["Stroke_2"] = Instance_new("UIStroke"),
- ["UI"] = Instance_new("Folder"),
- ["KeyBox"] = Instance_new("TextBox"),
- ["Stroke_3"] = Instance_new("UIStroke"),
- ["Padding"] = Instance_new("UIPadding")
+ ["UI"] = Instance_new("Folder")
 }
 GXL["LoaderUI"]["Parent"] = gethui and gethui() or game:GetService("Players").LocalPlayer.PlayerGui
 GXL["LoaderUI"]["Name"] = 'LoaderUI'
@@ -91,34 +88,6 @@ GXL["Stroke_2"]["Thickness"] = 0.6000000238418579
 
 GXL["UI"]["Parent"] = GXL["BypassBuddyFrame"]
 GXL["UI"]["Name"] = 'UI'
-
-GXL["KeyBox"]["Parent"] = GXL["UI"]
-GXL["KeyBox"]["Name"] = 'KeyBox'
-GXL["KeyBox"]["ClearTextOnFocus"] = false
-GXL["KeyBox"]["FontFace"] = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal)
-GXL["KeyBox"]["FontSize"] = Enum.FontSize.Size18
-GXL["KeyBox"]["PlaceholderText"] = 'Your key here..'
-GXL["KeyBox"]["Text"] = ''
-GXL["KeyBox"]["TextColor3"] = Color3_fromHex("ffffff")
-GXL["KeyBox"]["TextSize"] = 15
-GXL["KeyBox"]["TextXAlignment"] = Enum.TextXAlignment.Left
-GXL["KeyBox"]["AnchorPoint"] = Vector2.new(0.500000, 0.900000)
-GXL["KeyBox"]["AutomaticSize"] = Enum.AutomaticSize.Y
-GXL["KeyBox"]["BackgroundColor3"] = Color3_fromHex("111111")
-GXL["KeyBox"]["BorderColor3"] = Color3_fromHex("000000")
-GXL["KeyBox"]["BorderSizePixel"] = 0
-GXL["KeyBox"]["Position"] = UDim2_new(0.500000, 0.000000, 0.900000, 0.000000)
-GXL["KeyBox"]["Size"] = UDim2_new(0.800000, 0.000000, 0.000000, 20.000000)
-
-GXL["Stroke_3"]["Parent"] = GXL["KeyBox"]
-GXL["Stroke_3"]["Name"] = 'Stroke'
-GXL["Stroke_3"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border
-GXL["Stroke_3"]["Color"] = Color3_fromHex("282828")
-GXL["Stroke_3"]["Thickness"] = 0.6000000238418579
-
-GXL["Padding"]["Parent"] = GXL["KeyBox"]
-GXL["Padding"]["Name"] = 'Padding'
-GXL["Padding"]["PaddingLeft"] = UDim_new(0.000000, 4.000000)
 
 return {
     Set = function(Percent, Text)
