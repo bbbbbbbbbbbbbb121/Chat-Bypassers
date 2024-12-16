@@ -1,14 +1,19 @@
 {
-  "version": ["1.1.1", "BB-COLLAB"],
+  "version": ["1.1.1", "BB-COLLAB", "3.61"],
   "last_updated": "9/12/2024",
-  "discord": "gYhqMRBeZV or discord.gg/usercreation",
+  "discord": "gYhqMRBeZV",
   "changelogs": {
-    "1.1.1 BB-COLLAB": "[+] BypassBuddy collaborated with UserCreation, Creating the most powerful bypasser out there.\n[+] Invisible method (20% working) added (ITS IN THE GLOBAL SETTINGS AS BANNABLE METHOD)\n[+] Added a filter bypasser, Which uses accents.\n[+] Added premade phrases (OVER 300)\n[+] Added over 13 settings\n[+] Added tall message, fake message.\n[-] Removed the fully invisible bypass merhod, as no invisible character works anymore.\n[+] Added usercreation features such as bang system\n[+] Added more onto the help tab.",
-    "1.1.0 UNPATCH": "[+] Returned invisible characters support (Thanks to BetterBypasser)",
-    "1.0.9 SHIT_RELEASE": "[-] Removed invisible characters bypassing as roblox filter update fucked it all up\n[+] Added mobile support",
-    "1.0.8 TESTING": "[+] Added the warning for when you join a game with text chat service\n[+] Made bypassed messages length 2X SHORTER!!! (Meaning you can send messages 2x longer now; including links)\n[=] TODO: Mobile support & TCS ban bypass.",
-    "1.0.7 ALPHA": "[-] No mobile support yet.\n[+] Remade bypass function -> Messages under 4 characters cannot be bypassed, Script bypasses almost everything given accurately (if the chat filter doesnt break)\n[+] Added a 'Bypass chatbar text' button in Bypasser Settings+ tab, What this does is: Convert the text you typed in the chat bar into the bypassed version of it.\n[+] Fixed invisible characters issue\n[+] Added a tutorial for those who have a hard time bypassing stuff",
-    "1.0.6 PUBLIC RELEASE": "[+] Added a new unicode bypass character\n[+] You can now say 1 word swear words, like 'faggot' without putting them in a sentence.\n[+] Fixed not loading all the tabs\n[=] TODO: // Add more features (Coming soon, maybe at 9/11 heh)",
-    "1.0.5 BETA": "[+] Remade bypassbuddy's code\n[+] Remade the bypass function\n[+] Added notifications to chat\n[+] Added saveable settings\n[+] Much faster & improved bypassing."
+    "bb": {
+      "1.1.1 BB-COLLAB": "[+] BypassBuddy collaborated with UserCreation, Creating the most powerful bypasser out there.\n[+] Invisible method (20% working) added (ITS IN THE GLOBAL SETTINGS AS BANNABLE METHOD)\n[+] Added a filter bypasser, Which uses accents.\n[+] Added premade phrases (OVER 300)\n[+] Added over 13 settings\n[+] Added tall message, fake message.\n[-] Removed the fully invisible bypass merhod, as no invisible character works anymore.\n[+] Added usercreation features such as bang system\n[+] Added more onto the help tab.",
+      "1.1.0 UNPATCH": "[+] Returned invisible characters support (Thanks to BetterBypasser)",
+      "1.0.9 SHIT_RELEASE": "[-] Removed invisible characters bypassing as roblox filter update fucked it all up\n[+] Added mobile support",
+      "1.0.8 TESTING": "[+] Added the warning for when you join a game with text chat service\n[+] Made bypassed messages length 2X SHORTER!!! (Meaning you can send messages 2x longer now; including links)\n[=] TODO: Mobile support & TCS ban bypass.",
+      "1.0.7 ALPHA": "[-] No mobile support yet.\n[+] Remade bypass function -> Messages under 4 characters cannot be bypassed, Script bypasses almost everything given accurately (if the chat filter doesnt break)\n[+] Added a 'Bypass chatbar text' button in Bypasser Settings+ tab, What this does is: Convert the text you typed in the chat bar into the bypassed version of it.\n[+] Fixed invisible characters issue\n[+] Added a tutorial for those who have a hard time bypassing stuff",
+      "1.0.6 PUBLIC RELEASE": "[+] Added a new unicode bypass character\n[+] You can now say 1 word swear words, like 'faggot' without putting them in a sentence.\n[+] Fixed not loading all the tabs\n[=] TODO: // Add more features (Coming soon, maybe at 9/11 heh)",
+      "1.0.5 BETA": "[+] Remade bypassbuddy's code\n[+] Remade the bypass function\n[+] Added notifications to chat\n[+] Added saveable settings\n[+] Much faster & improved bypassing."
+    },
+    "uc": {
+      "3.61": "Developed by a new developer (bat), Created a great auto bypass as well as an almost fully invisible method working 30% of the time."
+    }
   }
 }
