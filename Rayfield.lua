@@ -112,19 +112,24 @@ if debugX then
 	warn('Settings Loaded')
 end
 
+local res;
+
 prompt.create(
-			'Help us improve',
+			'',
 	            [[Warning - We are not responsible for any bans that happen on modern chat, are you sure you want to continue & execute usercreation?
 
 <font transparency='0.4'>You can use modern chat anti ban to avoid the modern chat bans.</font>]],
 			'Continue',
 			'Cancel',
 			function(result)
-				if result == "Cancel" then
-                    error("Cancelled, rayfield not loading.", 2)
-                end
+                res = result
 			end
 		)
+
+repeat task.wait() until res;
+if res == "Cancel" then
+    error("Cancelled, rayfield not loading.", 2)
+end
 
 local RayfieldLibrary = {
 	Flags = {},
